@@ -50,7 +50,7 @@ P(I|<s>) = 0.667, P(deep|<s>) = 0.333
 ...
 Sentence 1: <s> I love NLP </s> → Probability: 0.167
 Sentence 2: <s> I love deep learning </s> → Probability: 0.083
-✅ The model prefers Sentence 1
+ The model prefers Sentence 1
 ```
 
 ### Dependencies
@@ -105,8 +105,4 @@ Micro-averaged Recall: 0.386
 - **Bigram Language Model:** Unseen bigrams result in probability 0. Smoothing (e.g., Laplace) can be added for robustness.  
 - **Confusion Matrix Metrics:** Macro vs. Micro averaging gives different perspectives on classifier performance, useful for imbalanced datasets.
 
----
-
-## License
-This repository is open for educational purposes. You may use and modify the scripts freely.
 

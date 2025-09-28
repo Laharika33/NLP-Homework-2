@@ -66,8 +66,8 @@ print("Sentence 2:", " ".join(test_sent2), "→ Probability:", prob2)
 
 # Step 7: Compare which one is preferred
 if prob1 > prob2:
-    print("\n✅ The model prefers Sentence 1 because it has a higher probability.")
+    print("\nThe model prefers Sentence 1 because it has a higher probability.")
 elif prob2 > prob1:
-    print("\n✅ The model prefers Sentence 2 because it has a higher probability.")
+    print("\nThe model prefers Sentence 2 because it has a higher probability.")
 else:
-    print("\n🤝 The model finds both sentences equally likely.")
+    print("\n The model finds both sentences equally likely.")
